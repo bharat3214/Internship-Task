@@ -83,17 +83,7 @@ If you make any code or dependency changes:
 docker-compose up --build
 ```
 
----
 
-## ⚙️ Environment Variables (If You Want Your Credentials)
-
-Create a `.env` file inside the `backend/` directory with the following keys:
-
-```env
-MONGO_URI=mongodb+srv://<username>:<password>@<cluster-name>.mongodb.net/<database>
-POSTGRES_URI=your_postgres_connection_string
-JWT_SECRET_KEY=your_secret_key
-```
 
 > ⚠️ **Important:**
 > If your MongoDB password contains special characters (`@`, `#`, `$`, etc.), URL-encode them.
