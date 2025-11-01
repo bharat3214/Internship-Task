@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.log
+.env
+.env.*
+
+# Virtual environments
+venv/
+.env/
+.venv/
+
+# OS/Editor
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+
+# Node (if frontend exists)
+node_modules/
+build/
+dist/
+
+# Coverage
+.coverage
+htmlcov/
+
+# Allow example env files (still ignore real .env files)
+!**/.env.example
